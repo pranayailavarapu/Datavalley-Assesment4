@@ -3,11 +3,11 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class DB {
+public class PatientData {
     public static void main(String[] args) {
-        String dburl = "jdbc:oracle:thin:@localhost:1521:xe"; 
-        String user = "INK @1234"; 
-        String password = "ink2259"; // Update with your password
+        String url = "jdbc:oracle:thin:@localhost:1521:xe"; 
+        String user = "Pranaya@8958"; 
+        String password = "ip8958"; // Update with your password
 
         // Create a connection
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
